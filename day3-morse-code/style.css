@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root
+{
+    --primary: rgb(29, 29, 29);
+    --secondary: rgb(0, 51, 71);
+    --tertiary: rgb(27, 85, 172);
+    --quaternary: rgb(28, 70, 133);
+    --contrast: rgb(142, 209, 221);
+
+    font-size: 16px;
+}
+
+/* Default sizes. */
+p {font-size: 1rem;}
+h1 {font-size: 2rem;}
+h2 {font-size: 1.75rem;}
+h3 {font-size: 1.5rem;}
+h4 {font-size: 1.25rem;}
+
+body 
+{
+    background-color: var(--secondary);
+    color: var(--contrast);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+textarea 
+{
+    font-size: 1rem;
+    color: var(--primary);
+    background-color: var(--contrast);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title-header h1 {text-align: center;}
+
+
+.conversion-area
+{
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.conversion-area article
+{
+	margin: auto;
+    width: 90%;
+}
+
+.conversion-area textarea
+{
+    margin: auto;
+    width: 90%;
+    height: 24rem;
+
+    resize: none;
+    overflow-y: scroll;
+}

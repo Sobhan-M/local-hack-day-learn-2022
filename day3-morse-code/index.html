@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href = "style.css" type = "text/css" rel = "stylesheet"/>
+	<title>Morse Code To Text Converter</title>
+</head>
+<body>
+	<h1>Text</h1>
+	<p>This program can only convert the 26 letters of the English alphabet and the digits 0 to 9. Other punctuation will not be converted.</p>
+	<p>All spaces between words will be converted into two spaces in the morse version, because each character 
+		in the morse version is separated by a space itself.</p>
+	<hr>
+
+	<section class = "conversion-area">
+		<article>
+			<h2>Text Area</h2>
+			<textarea id="text-area-js" placeholder="Text goes here"></textarea>
+		</article>
+
+		<article>
+			<h2>Morse Area</h2>
+			<textarea id="morse-area-js" placeholder="- . -..- -   --. --- . ...   .... . .-. ."></textarea>
+		</article>
+
+	</section>
+	
+
+	
+
+	<script type = "text/JavaScript" src = "morse-code-functions.js"></script>
+</body>
+</html>
